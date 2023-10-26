@@ -75,8 +75,6 @@ public void buscarSeleccion() {
 	}catch(SQLException e){
 		JOptionPane.showMessageDialog(null, "Error al buscar seleccion");
 	}
-
-
 }
 
 	private Connection conectar() {

@@ -1,6 +1,8 @@
 package gui;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class VentanaMenu {
 
@@ -9,9 +11,24 @@ public class VentanaMenu {
 	private JButton mostrarSeleccionButton;
 
 	public void ActionListeners() {
-		throw new UnsupportedOperationException();
-	}
+		buscarSeleccionButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 
+		agregarSeleccionButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+
+		mostrarSeleccionButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+	}
 	public void MostrarMenu() {
 		JFrame frame = new JFrame("VentanaMenu");
 		frame.setContentPane(new VentanaMenu().buscarSeleccionButton);
