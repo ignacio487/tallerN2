@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.VentanaMostrarSeleccion">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1dc4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar Seleccion"/>
+        </properties>
+      </component>
+      <vspacer id="949a7">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="3ce09" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lista de jugadores"/>
+        </properties>
+      </component>
+      <component id="59385" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="JUGADOR 1 (A)"/>
+            <item value="JUGADOR 2(A)"/>
+            <item value="JUGADOR 3(A)"/>
+            <item value="JUGADOR 4 "/>
+            <item value="JUGADOR 5"/>
+            <item value="JUGADOR 6"/>
+            <item value="JUGADOR 7"/>
+            <item value="JUGADOR 8"/>
+            <item value="JUGADOR 9"/>
+            <item value="JUGADOR 10"/>
+            <item value="JUGADOR 11"/>
+            <item value="JUGADOR 12"/>
+            <item value="JUGADOR 13"/>
+            <item value="JUGADOR 14"/>
+            <item value="JUGADOR 15"/>
+            <item value="JUGADOR 16"/>
+            <item value="JUGADOR 17"/>
+            <item value="JUGADOR 18"/>
+            <item value="JUGADOR 19"/>
+            <item value="JUGADOR 20"/>
+            <item value="JUGADOR 21 "/>
+            <item value="JUGADOR 22"/>
+            <item value="JUGADOR 23"/>
+          </model>
+        </properties>
+      </component>
+      <vspacer id="bee8d">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f140b">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
