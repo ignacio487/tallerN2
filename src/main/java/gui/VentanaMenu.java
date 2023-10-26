@@ -29,7 +29,7 @@ public class VentanaMenu {
 			}
 		});
 	}
-	public void MostrarMenu() {
+	public void mostrarVentana() {
 		JFrame frame = new JFrame("VentanaMenu");
 		frame.setContentPane(new VentanaMenu().buscarSeleccionButton);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

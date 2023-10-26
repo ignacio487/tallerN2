@@ -1,10 +1,7 @@
 package gui;
 
 import javax.swing.*;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class VentanaAgregarSeleccion {
 
@@ -46,8 +43,16 @@ try{
 		}
 	}
 
-	private void conectar(){
-
-
+	private Connection conectar() {
+		Connection connection = null;
+		try {
+			String url = "jdbc:mysql://localhost:3306/basededatos";
+			String usuario = "root";
+			String contraseña = "";
+			connection = DriverManager.getConnection(url, usuario, contraseña);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return connection;
 	}
 }
