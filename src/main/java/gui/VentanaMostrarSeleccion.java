@@ -11,17 +11,18 @@ public class VentanaMostrarSeleccion {
 		private JComboBox comboBox1;
 
 		public void mostrarSeleccionView(ArrayList<Seleccion> selecciones) {
-
+			for (Seleccion seleccion:selecciones){
+				comboBox1.addItem(seleccion.getNombre());
+			}
 		}
 
 		public void iniciarTabla() {
 
 		}
-
-		public void MostrarSeleccion() {
-			;
-		}
 		public void mostrarJugadores(ArrayList<Jugador>jugadores){
+			for (Jugador jugador:jugadores){
+				comboBox1.addItem(jugador.getNombre());
+			}
 			;
 		}
 

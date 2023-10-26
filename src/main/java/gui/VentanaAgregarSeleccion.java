@@ -17,16 +17,47 @@ public class VentanaAgregarSeleccion {
 	private JButton regresarButton;
 
 	public void agregarSeleccionView() {
-
-
+JFrame frame = new JFrame("Agregar Selección");
+		JPanel panel = new JPanel();
+		textField1 = new JTextField(10);
+		textField2 = new JTextField(10);
+		textField3 = new JTextField(10);
+		agregarSeleccionButton = new JButton("Agregar");
+		regresarButton = new JButton("Regresar");
+		panel.add(textField1);
+		panel.add(textField2);
+		panel.add(textField3);
+		panel.add(agregarSeleccionButton);
+		panel.add(regresarButton);
+		frame.setContentPane(panel);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
+		actionListeners();
 	}
 
 	public void actionListeners() {
+		regresarButton.addActionListener(e -> {
+			VentanaMenu ventanaMenu = new VentanaMenu();
+			ventanaMenu.mostrarVentana();
+		});
+		agregarSeleccionButton.addActionListener(e -> {
+			agregarSeleccion();
+		});
 
 	}
 
 	public void iniciarComboBox() {
-
+conectar();
+		String sql = "SELECT * FROM seleccion";
+		try {
+			resultSet = statement.executeQuery(sql);
+			while (resultSet.next()) {
+				//comboBox1.addItem(resultSet.getString(2));
+			}
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null, "Error al agregar seleccion");
+		}
 	}
 
 	public void agregarSeleccion() {

@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baee3005-b605-4265-a3c9-21511f8815e8" name="Changes" comment="TallerN2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaBuscarSeleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBuscarSeleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698327618982</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TallerN2">
+      <created>1698328536226</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698328536226</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
