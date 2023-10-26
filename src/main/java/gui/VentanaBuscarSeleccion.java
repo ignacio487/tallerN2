@@ -63,6 +63,19 @@ conectar();
 public void buscarSeleccion() {
 	conectar();
 	String nombre = comboBox1.getSelectedItem().toString();
+	int id = Integer.parseInt(comboBox2.getSelectedItem().toString());
+	int ranking = Integer.parseInt(comboBox3.getSelectedItem().toString());
+	String sql = "SELECT * FROM seleccion WHERE nombre = '"+nombre+"' AND id = '"+id+"' AND ranking = '"+ranking+"'";
+	try{
+		resultSet = statement.executeQuery(sql);
+		while(resultSet.next()){
+			mod.addElement(resultSet.getString(2));
+		}
+		JOptionPane.showMessageDialog(null, "Seleccion encontrada");
+	}catch(SQLException e){
+		JOptionPane.showMessageDialog(null, "Error al buscar seleccion");
+	}
+
 
 }
 
