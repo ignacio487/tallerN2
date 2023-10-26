@@ -4,17 +4,18 @@ import model.Seleccion;
 
 import java.util.ArrayList;
 
+
 public class SeleccionController {
 
-	public void seleccionController() {
-		throw new UnsupportedOperationException();
+	public SeleccionController() {
+		this.listaSelecciones = new ArrayList<>();
 	}
 
-	public void agregarSelecciones(Seleccion seleccion) {
-		throw new UnsupportedOperationException();
+	public void agregarSelecciones(Seleccion seleccion, ArrayList<Seleccion> listaSelecciones) {
+		listaSelecciones.add(seleccion);
 	}
 
-	public ArrayList<Seleccion> obtenerSelecciones() {
-		throw new UnsupportedOperationException();
+	public ArrayList<Seleccion> obtenerSelecciones(ArrayList<Seleccion> listaSelecciones) {
+		return listaSelecciones;
 	}
 }

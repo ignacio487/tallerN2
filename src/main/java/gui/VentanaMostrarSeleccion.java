@@ -7,10 +7,14 @@ import java.util.ArrayList;
 public class VentanaMostrarSeleccion {
 
 	public void mostrarSeleccionView(ArrayList<Seleccion> selecciones) {
-		throw new UnsupportedOperationException();
+
 	}
 
 	public void iniciarTabla() {
+
+	}
+
+	public void MostrarSeleccion() {
 		throw new UnsupportedOperationException();
 	}
 }
