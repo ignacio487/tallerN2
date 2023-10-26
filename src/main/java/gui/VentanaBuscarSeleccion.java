@@ -34,7 +34,7 @@ public class VentanaBuscarSeleccion {
 	public void actionListeners() {
 		regresarButton.addActionListener(e -> {
 			VentanaMenu ventanaMenu = new VentanaMenu();
-			ventanaMenu.MostrarMenu();
+			ventanaMenu.mostrarVentana();
 		});
 	}
 
