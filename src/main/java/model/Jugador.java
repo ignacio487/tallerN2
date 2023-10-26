@@ -31,6 +31,6 @@ public class Jugador {
 	}
 
 	public Jugador(String nombre, int numero, String posicion) {
-		throw new UnsupportedOperationException();
+		super();
 	}
 }

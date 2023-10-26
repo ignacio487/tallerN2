@@ -2,11 +2,12 @@ package principal;
 
 public class Launcher {
 
-	public void main(String[] args) {
-		throw new UnsupportedOperationException();
+	public static void main(String[] args) {
+		Launcher launcher = new Launcher();
+		launcher.inicializar();
 	}
 
 	public void inicializar() {
-		throw new UnsupportedOperationException();
+		System.out.println("La aplicación se ha inicializado correctamente.");
 	}
 }

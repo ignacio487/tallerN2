@@ -12,5 +12,11 @@ public class VentanaMenu {
 		throw new UnsupportedOperationException();
 	}
 
-	public void
+	public void MostrarMenu() {
+		JFrame frame = new JFrame("VentanaMenu");
+		frame.setContentPane(new VentanaMenu().buscarSeleccionButton);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
+	}
 }

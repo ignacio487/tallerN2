@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 
 public class SeleccionController {
+	private ArrayList<Seleccion> listaSelecciones;
 
 	public SeleccionController() {
 		this.listaSelecciones = new ArrayList<>();

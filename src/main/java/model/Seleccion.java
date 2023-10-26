@@ -34,6 +34,6 @@ public class Seleccion {
 	}
 
 	public Seleccion(int nombre, int id, int rankingFifa) {
-		throw new UnsupportedOperationException();
+		super();
 	}
 }
