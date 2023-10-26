@@ -2,6 +2,8 @@ package controller;
 
 import model.Seleccion;
 
+import java.util.ArrayList;
+
 public class SeleccionController {
 
 	public void seleccionController() {
@@ -12,7 +14,7 @@ public class SeleccionController {
 		throw new UnsupportedOperationException();
 	}
 
-	public ArrayList<Selecciones> obtenerSelecciones() {
+	public ArrayList<Seleccion> obtenerSelecciones() {
 		throw new UnsupportedOperationException();
 	}
 }
