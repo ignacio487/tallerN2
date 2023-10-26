@@ -6,6 +6,10 @@ public class Jugador {
 	private String posicion;
 	private Seleccion seleccion;
 
+	public Jugador(String nombre, String apellido, String posicion, int edad, int numeroCamiseta) {
+		super();
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -28,9 +32,5 @@ public class Jugador {
 
 	public void setPosicion(String posicion) {
 		this.posicion = posicion;
-	}
-
-	public Jugador(String nombre, int numero, String posicion) {
-		super();
 	}
 }

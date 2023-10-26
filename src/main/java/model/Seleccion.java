@@ -36,4 +36,9 @@ public class Seleccion {
 	public Seleccion(int nombre, int id, int rankingFifa) {
 		super();
 	}
+
+    public void agregarJugador(String nombre, String apellido, String posicion, int edad, int numeroCamiseta) {
+		Jugador jugador = new Jugador(nombre, apellido, posicion, edad, numeroCamiseta);
+		jugadores.add(jugador);
+    }
 }

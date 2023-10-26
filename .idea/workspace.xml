@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baee3005-b605-4265-a3c9-21511f8815e8" name="Changes" comment="TallerN2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaAgregarSeleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaAgregarSeleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaBuscarSeleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBuscarSeleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaMostrarSeleccion.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SeleccionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SeleccionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Seleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Seleccion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698326395511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TallerN2">
+      <created>1698326703263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698326703263</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
