@@ -15,6 +15,6 @@ public class VentanaMostrarSeleccion {
 	}
 
 	public void MostrarSeleccion() {
-		throw new UnsupportedOperationException();
+		;
 	}
 }
